@@ -1,7 +1,7 @@
 ---
 layout: post-index
 title: Latest Posts
-description: "Describe this nonsense."
+description: "Metafarce"
 tags: [Jekyll, theme, themes, responsive, blog, modern]
 image:
   feature: abstract-1.jpg
@@ -20,7 +20,8 @@ image:
     {% endif %}
   </header>
   <div class="entry-content" itemprop="description">
-    {{ post.content }}
+    {{ # post.content }}
+    {{ post | only_first_p }}
   </div><!-- /.entry-content -->
 </article><!-- /.hentry -->
 {% endfor %}

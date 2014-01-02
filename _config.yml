@@ -1,15 +1,15 @@
-title:            Site Title
-description:      Describe your website here.
+title:           Metafarce 
+description:      A shameless attempt at self-promotion
 disqus_shortname: 
 #Comment out url when working locally to resolve base urls correctly
-url:              http://your-website.com
+url:              http://metafarce.com
 
 # Owner/author information
 owner:
-  name:           Your Name
+  name:           Andrew McConachie
   avatar:         avatar.jpg
   bio:            "Your bio goes here. It shouldn't be super long but a good two sentences or two should suffice."
-  email:          you@email.com
+  email:          smutt@depht.com
   # Social networking links used in footer. Update and remove as you like.
   twitter:        
   facebook:       
@@ -31,10 +31,10 @@ bing_verify:
 # Links to include in top navigation
 # For external links add external: true
 links:
-  - title: Theme Setup
+  - title: Resume
     url: /theme-setup
-  - title: External Link
-    url: http://mademistakes.com
+  - title: Mail Me
+    url: mailto:Andrew.mcconachie@gmail.com
     external: true
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones

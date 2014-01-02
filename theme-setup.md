@@ -90,31 +90,6 @@ paginate: 5
 
 {% highlight bash %}
 hpstr-jekyll-theme/
-├── _includes
-|    ├── browser-upgrade.html  # prompt to upgrade browser on < IE8
-|    ├── footer.html  # site footer
-|    ├── head.html  # site head
-|    ├── navigation.html # site navigation
-|    └── scripts.html  # jQuery, plugins, GA, etc
-├── _layouts
-|    ├── page.html  # page layout
-|    ├── page.html  # post-index layout used on home page
-|    └── post.html  # post layout
-├── _posts
-├── assets
-|    ├── css  # preprocessed less styles
-|    ├── js
-|    |   ├── _main.js  # plugin options
-|    |   ├── scripts.min.js  # concatenated and minifed site scripts
-|    |   ├── plugins  # plugin scripts
-|    |   └── vendor  # jQuery and Modernizr scripts
-|    └── less 
-├── images  # images for posts and pages
-├── _config.yml  # Jekyll options
-├── about.md  # about page
-├── archive.html  # all posts
-├── index.html  # home page
-└── tags.html  # all posts grouped by tag
 {% endhighlight %}
 
 ---
