@@ -22,7 +22,7 @@ General notes and suggestions for customizing **HPSTR**.
 5. Check out the sample posts in `_posts` to see examples for pulling in large feature images, tags, and other YAML data.
 6. Read the documentation below for further customization pointers and documentation.
 
-<div markdown="0"><a href="https://github.com/mmistakes/hpstr-jekyll-theme" class="btn btn-info">Download the Theme</a></div>
+<div markdown="0"><a href="https://github.com/smutt/hpstr-jekyll-theme" class="btn btn-info">Download the Theme</a></div>
 
 **Pro-tip:** Delete the `gh-pages` branch after cloning and start fresh by branching off `master`. There is a bunch of garbage in `gh-pages` used for the theme's demo that I'm guessing you don't want on your site.
 {:.notice}
@@ -36,17 +36,17 @@ General notes and suggestions for customizing **HPSTR**.
 3. Set the following variables in your `config.yml` file:
 
 {% highlight yaml %}
-title:            Site Title
+title:            Metafarce
 description:      Describe your website here.
 disqus_shortname: shortname
-url:              http://your-website.com
+url:              http://metafarce.com
 
 # Owner/author information
 owner:
-  name:           Your Name
+  name:           Andrew McConachie
   avatar:         avatar.jpg
   bio:            "Your bio goes here. It shouldn't be super long but a good two sentences or two should suffice."
-  email:          you@email.com
+  email:          amcconachie@berkeley.edu
   # Social networking links used in footer. Update and remove as you like.
   twitter:        
   facebook:       

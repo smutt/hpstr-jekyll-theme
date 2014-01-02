@@ -8,8 +8,8 @@ url:              http://metafarce.com
 owner:
   name:           Andrew McConachie
   avatar:         avatar.jpg
-  bio:            "Your bio goes here. It shouldn't be super long but a good two sentences or two should suffice."
-  email:          smutt@depht.com
+  bio:            "Network engineer, software engineer and tech policy wonk."
+  email:          andrewm@ischool.berkeley.edu
   # Social networking links used in footer. Update and remove as you like.
   twitter:        
   facebook:       
@@ -34,11 +34,11 @@ links:
   - title: Resume
     url: /theme-setup
   - title: Mail Me
-    url: mailto:Andrew.mcconachie@gmail.com
+    url: mailto:andrewm@ischool.berkeley.edu
     external: true
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-timezone:    America/New_York
+timezone:    America/Los_Angeles
 future:      true
 pygments:    true
 markdown:    kramdown
