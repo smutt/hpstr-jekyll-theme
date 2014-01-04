@@ -7,7 +7,7 @@ url:              http://metafarce.com
 # Owner/author information
 owner:
   name:           Andrew McConachie
-  avatar:         avatar.jpg
+  avatar:         me.jpg
   bio:            "Network engineer, software engineer and tech policy wonk."
   email:          andrewm@ischool.berkeley.edu
   # Social networking links used in footer. Update and remove as you like.
@@ -29,10 +29,13 @@ google_verify:
 bing_verify:         
 
 # Links to include in top navigation
+# There's a bug in Firefox that prevents the custom glyphs from rendering properly
+# https://support.mozilla.org/en-US/questions/947228?page=1
 # For external links add external: true
 links:
   - title: Resume
-    url: /theme-setup
+    url: http://people.ischool.berkeley.edu/~andrewm/Andrew-McConachie.pdf
+    external: true
   - title: Mail Me
     url: mailto:andrewm@ischool.berkeley.edu
     external: true
